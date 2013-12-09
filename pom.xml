@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--suppress MavenRedundantGroupId -->
+    <groupId>com.github.bednar</groupId>
+    <artifactId>animate-css</artifactId>
+    <version>3.0.0</version>
+
+    <parent>
+        <artifactId>maven-parent</artifactId>
+        <groupId>com.github.bednar</groupId>
+        <version>1-SNAPSHOT</version>
+    </parent>
+
+    <name>Animate.css Maven Dependency</name>
+
+    <url>https://github.com/bednar/animate.css</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://raw.github.com/bednar/animate.css/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:bednar/animate.css.git</connection>
+        <developerConnection>scm:git:git@github.com:bednar/animate.css.git</developerConnection>
+        <url>git@github.com:bednar/animate.css.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>bednar</id>
+            <name>Jakub Bednář</name>
+            <email>jakub.bednar@gmail.com</email>
+        </developer>
+    </developers>
+
+    <repositories>
+
+        <repository>
+            <id>bednar-public</id>
+            <name>Bednar Public Repository</name>
+            <url>http://nexus-bednar.rhcloud.com/nexus/content/groups/public/</url>
+        </repository>
+
+    </repositories>
+
+</project>
